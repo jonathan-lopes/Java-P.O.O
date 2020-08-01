@@ -1,0 +1,15 @@
+package laboratorio;
+
+public class Main {
+	
+	public void mostrarArea(FiguraGeometrica f)
+	{
+		System.out.println("Area da figura: " + f.calculaArea());
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

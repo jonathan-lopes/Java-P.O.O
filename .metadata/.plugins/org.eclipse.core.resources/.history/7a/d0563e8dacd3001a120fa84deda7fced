@@ -1,0 +1,43 @@
+package gravaobj;
+
+import java.io.Serializable;
+import java.util.List;
+
+public class Cidade implements Serializable {
+	
+	private static final long serialVersionUID = -793204712285897162L;
+	
+	static class Ponto implements Serializable
+	{
+		private static final long serialVersionUID = 2651887979907L;
+		
+		double x, y;
+		public Ponto(double x, double y)
+		{
+			this.x = x;
+			this.y = y;
+		}
+	}
+	
+	String nome;
+	Ponto coordenadas;
+	int populacao;
+	boolean cidadePortuaria;
+	List<String> palavras_chave;
+	
+	Bairro[] bairros;
+
+	public Cidade(String nome, Ponto coordenadas, int populacao, boolean cidadePortuaria, List<String> palavras_chave,
+			Bairro[] bairros) {
+		this.nome = nome;
+		this.coordenadas = coordenadas;
+		this.populacao = populacao;
+		this.cidadePortuaria = cidadePortuaria;
+		this.palavras_chave = palavras_chave;
+		this.bairros = bairros;
+	}
+	
+	public Cidade () {}
+	
+	
+}

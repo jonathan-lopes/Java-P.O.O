@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Aula ao Vivo OOP&apos; to &apos;Aula ao Vivo OOP (Uninter)&apos;" description="Rename resource &apos;Aula ao Vivo OOP&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Aula ao Vivo OOP" name="Aula ao Vivo OOP (Uninter)" stamp="1596251773281" updateReferences="true"/>
+</session>

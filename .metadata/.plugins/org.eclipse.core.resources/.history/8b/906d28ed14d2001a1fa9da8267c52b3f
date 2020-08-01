@@ -1,0 +1,19 @@
+package Principal;
+
+import modelo.Funcionario;
+
+public class Principal {
+
+	public void mostraSalarioComComissao(Funcionario f)
+	{
+		System.out.println("Salario com comissao: " + f.getSalario() + f.calculaComissao());
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Funcionario funcionario = new Funcionario("35840", "Maria Victoria", "Aqui", "RH", 1000;
+		
+		
+	}
+
+}

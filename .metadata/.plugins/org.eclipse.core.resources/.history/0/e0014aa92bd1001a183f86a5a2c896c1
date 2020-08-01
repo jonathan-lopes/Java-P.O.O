@@ -1,0 +1,14 @@
+package principal;
+
+import modelo.Cliente;
+import modelo.Animal;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Cliente c1 = new Cliente("Norma", "Aqui", "555-1234");
+		Animal a1 = new Animal("Kita", "Cachorro", "SRD", c1);
+	}
+
+}

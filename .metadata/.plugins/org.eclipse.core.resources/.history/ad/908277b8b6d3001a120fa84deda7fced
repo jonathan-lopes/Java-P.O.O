@@ -1,0 +1,17 @@
+package lerobj;
+
+import java.io.FileInputStream;
+import java.io.ObjectInput;
+
+public class RestaurarObjeto {
+	
+	public static Object restaurar(String caminho)
+	{
+		Object objeto = null;
+		
+		try {
+			FileInputStream restFile = new FileInputStream(caminho);
+			ObjectInputStream stream = new ObjectInputStream(restFile);
+		}
+	}
+}

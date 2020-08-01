@@ -1,0 +1,8 @@
+package pctEmpregado;
+
+public class Horario extends Empregado {
+	private double salario;
+	private double horas;
+	
+	
+}

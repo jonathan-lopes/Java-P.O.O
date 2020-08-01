@@ -1,0 +1,10 @@
+package pctVeiculo2;
+
+public class InstanciaVeiculo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

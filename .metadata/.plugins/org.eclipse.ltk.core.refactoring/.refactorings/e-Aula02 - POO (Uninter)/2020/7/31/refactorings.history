@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;pctFigurasGeometricas.FiguraGeometrica&apos; to &apos;FiguraGenerica&apos;&#x0D;&#x0A;- Original project: &apos;e-Aula02 - POO (Uninter)&apos;&#x0D;&#x0A;- Original element: &apos;pctFigurasGeometricas.FiguraGeometrica&apos;&#x0D;&#x0A;- Renamed element: &apos;pctFigurasGeometricas.FiguraGenerica&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FiguraGeometrica&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;pctFigurasGeometricas{FiguraGeometrica.java[FiguraGeometrica" matchStrategy="1" name="FiguraGenerica" qualified="false" references="true" similarDeclarations="false" stamp="1596167852437" textual="false" version="1.0"/>
+</session>
